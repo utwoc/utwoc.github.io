@@ -1,3 +1,44 @@
-theme: jekyll-theme-minimal
-title: Aniket's homepage
-description: Bookmark this to keep an eye on my project updates!
+# _config.yml
+
+# --- Basic Site Settings ---
+title: Aniket Mallick
+name: Aniket Mallick
+description: "A portfolio showcasing my skills and experience in Generative AI, Knowledge Graphs, and Machine Learning."
+url: "https://your-username.github.io" # Replace with your GitHub Pages URL
+
+# --- Theme Settings ---
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "sunrise", "default"
+
+# --- Author Information (shows up in the sidebar) ---
+author:
+  name: "Aniket Mallick"
+  avatar: "/assets/images/profile-photo.jpg" # Optional: Add a profile photo to this path
+  bio: "Generative AI, Knowledge Graphs, ML"
+  location: "Bengaluru, Karnataka, India"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:aniketmallick.am@gmail.com"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/aniketmallick"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/your-username" # Replace with your GitHub profile URL
+
+# --- Navigation Links (shows up in the top bar) ---
+main:
+  - title: "Home"
+    url: /
+  - title: "Experience"
+    url: /experience/
+  - title: "Projects"
+    url: /projects/
+  - title: "Education"
+    url: /education/
+
+# --- Build Settings ---
+# (You can leave these as they are)
+markdown: kramdown
+highlighter: rouge
